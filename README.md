@@ -7,7 +7,7 @@
    exit with `q`
 3. Put packet on queue for being modified by the Python script with: 
    ```bash
-   sudo iptables -I OUTPUT -d 127.0.0.1 -j NFQUEUE --queue-num 1
+   sudo iptables -I OUTPUT -d 192.168.0.0/16 -j NFQUEUE --queue-num 1
    ```
    Return to normal mode with: 
    ```bash
