@@ -1,5 +1,5 @@
 
-1. Run the python program
+1. Run the python scrypt on sudo mode
 2. Start ARP poisoning with:
    ```bash
    sudo ettercap -T -i eth0 -M arp /192.168.39.110// /192.168.37.163//
