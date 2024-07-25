@@ -1,15 +1,23 @@
 # Home IO Packet monitorer
 
 This script is used to monitor the packets from Home IO simulation and modified them.
+The [Modbus interface for Home I/O simulation](https://github.com/Klagarge/Modbus2HomeIO) and his [Controller](https://github.com/Klagarge/ControllerHomeIo) have to be used.
 
 It uses the `scapy` library to read and modify the packets. Packet are get from the queue created by `iptables`.
 
 This script have to be run on sudo mode on an MitM environment. (e.g. ARP poisoning with `ettercap`)
 
 ## Prerequisites
+<p align="left">
+<a href="https://www.kali.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Kali-dragon-icon.svg/1200px-Kali-dragon-icon.svg.png" alt="kali linux" width="40" height="40"/> </a>
+<a href="https://www.ettercap-project.org/" target="_blank" rel="noreferrer"><img src="https://www.kali.org/tools/ettercap/images/ettercap-logo.svg" alt="ettercap" width="40" height="40"/> </a>
+<a href="https://linux.die.net/man/8/iptables" target="_blank" rel="noreferrer"><img src="https://projects.task.gda.pl/uploads/-/system/project/avatar/286/iptables-logo.png" alt="iptables" width="40" height="40"/> </a>
+<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
+<a href="https://scapy.net/" target="_blank" rel="noreferrer"><img src="https://www.kali.org/tools/scapy/images/scapy-logo.svg" alt="scapy" width="40" height="40"/> </a>
 
-The following components must be installed:
- 
+
+The following components must be installed: 
+
 - Ettercap
 - iptables
 - Python 3.8 or higher
