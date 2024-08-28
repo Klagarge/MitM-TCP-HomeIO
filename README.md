@@ -14,6 +14,8 @@ This script have to be run on sudo mode on an MitM environment. (e.g. ARP poison
 <a href="https://linux.die.net/man/8/iptables" target="_blank" rel="noreferrer"><img src="https://projects.task.gda.pl/uploads/-/system/project/avatar/286/iptables-logo.png" alt="iptables" width="60" height="60"/> </a>
 <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="60" height="60"/> </a>
 <a href="https://scapy.net/" target="_blank" rel="noreferrer"><img src="https://www.kali.org/tools/scapy/images/scapy-logo.svg" alt="scapy" width="60" height="60"/> </a>
+<a href="https://modbus.org/" target="_blank" rel="noreferrer"><img src="https://www.detection-technologies.com/wp-content/uploads/2022/03/800px-Configuration_examples_modbus_logo.png" alt="modbus" width="188" height="60"/> </a>
+</p>
 
 
 The following components must be installed: 
