@@ -1,7 +1,7 @@
-# Home IO Packet monitorer
+# Home IO Packet monitorer - Modbus/TCP
 
 This script is used to monitor the packets from Home IO simulation and modified them.
-The [Modbus interface for Home I/O simulation](https://github.com/Klagarge/Modbus2HomeIO) and his [Controller](https://github.com/Klagarge/ControllerHomeIo) have to be used.
+The [Modbus interface for Home I/O simulation](https://github.com/hei-synd-ot-security/Modbus2HomeIO) and his [Controller](https://github.com/Klagarge/ControllerHomeIo) have to be used.
 
 It uses the `scapy` library to read and modify the packets. Packet are get from the queue created by `iptables`.
 
